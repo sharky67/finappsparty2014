@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BanksApp - Alta de cuenta</title>
+<link href="css/forms2.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<form name="banksapp" action="congrats.html">
+    <table width="1267" align="center">
+      <tr>
+        <td colspan="4" align="left" valign="middle"><img src="images/header2.png" /></td>
+        <td colspan="1" align="left" >
+        <img src="images/language.png" width="25" height="25" align="bottom"  /> &nbsp;
+        <select name="select">
+          <option value="English">English</option>
+          <option value="Castellano">Castellano</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td colspan="5">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="264" rowspan="19" valign="top">
+            <table class="roundtable">
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="rowtable">&nbsp;&nbsp;Account information&nbsp;&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="rowtable">&nbsp;&nbsp;Balances and transactions&nbsp;&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </td>
+        <td colspan="2" align="center" height="50px" class="title">Create account</td>
+        <td width="212">&nbsp;</td>
+        <td width="247">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"  class="subunderline1">Datos de solicitud</td>
+        <td colspan="2" align="left" class="subunderline2">Confirmación de datos</td>
+      </tr>
+      <tr class="step">
+        <td width="139" align="center"><img src="images/1.png" /></td>
+        <td colspan="3">Enter the name and surname of the owner of this BanksApp account</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td width="220" nowrap="nowrap" bgcolor="#D9D9D9">Name:</td>
+        <td nowrap="nowrap" bgcolor="#D9D9D9">1st. Surname:</td>
+        <td nowrap="nowrap" bgcolor="#D9D9D9">2nd. Surname:</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td nowrap="nowrap"><input name="name" placeholder="Name" class="name" required /></td>
+        <td nowrap="nowrap"><input name="surname1" placeholder="1st. Surname" class="name" required /></td>
+        <td nowrap="nowrap"><input name="surname2" placeholder="2nd. Surname" class="name" required /></td>
+      </tr>
+      <tr class="step">
+        <td align="center"><img src="images/2.png" /></td>
+        <td colspan="3">Enter the account(s) to sync with the BanksApp account</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td bgcolor="#D9D9D9">Account number</td>
+        <td bgcolor="#D9D9D9">Account type</td>
+        <td bgcolor="#D9D9D9">Holder</td>
+      </tr>
+      <tr>
+        <td align="center"><input name="checkbox1" type="checkbox" /></td>
+        <td>
+        	<input name="accountNumber1" type="text" maxlength="16" placeholder="Account Number" required />
+        </td>
+        <td>
+            <input name="account_type1" list="account_type1" class="list"/>
+                <datalist id="account_type1">
+                    <option value="Visa">
+                    <option value="MasterCard">
+                    <option value="American Express">
+                    <option value="Other...">
+                </datalist>
+        </td>
+        <td>
+	        <input name="holderName1" placeholder="Holder name" class="name" required />
+        </td>
+      </tr>
+      <tr>
+        <td align="center"><input name="checkbox2" type="checkbox" /></td>
+        <td>
+        	<input name="accountNumber2" type="text" maxlength="16" placeholder="Account Number" required />
+        </td>
+        <td>
+            <input name="account_type2"  list="account_type2" class="list"/>
+                <datalist id="account_type2">
+                    <option value="Visa">
+                    <option value="MasterCard">
+                    <option value="American Express">
+                    <option value="Other...">
+                </datalist>
+        </td>
+        <td>
+	        <input name="holderName2" placeholder="Holder name" class="name" required />
+        </td>
+      </tr>
+      <tr>
+        <td align="center"><input name="checkbox3" type="checkbox" /></td>
+		<td>
+        	<input name="accountNumber3" type="text" maxlength="16" placeholder="Account Number" required />
+        </td>
+		<td>
+            <input name="account_type3"  list="account_type3" class="list"/>
+                <datalist id="account_type3">
+                    <option value="Visa">
+                    <option value="MasterCard">
+                    <option value="American Express">
+                    <option value="Other...">
+                </datalist>
+        </td>
+        <td>
+        	<input name="holderName3" placeholder="Holder name" class="name" required />
+        </td>
+      </tr>
+      <tr class="step">
+        <td align="center"><img src="images/3.png" /></td>
+        <td colspan="3">Enter the mobile phone number to associate with the BanksApp account</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>
+        	<input name="prefix" list="prefix" class="list"/>
+                <datalist id="prefix">
+                	<option value="+34">+34</option>
+                    <option value="+44">+44</option>
+                </datalist>
+        </td>
+        <td>
+        	<input name="phoneNumber" type="text" maxlength="9" placeholder="Mobile Phone Number" required />
+        </td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr class="step">
+        <td align="center"><img src="images/4.png" /></td>
+        <td colspan="3">Enter the e-mail for the BanksApp account</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>
+        	<input type="email" name="emailaddress" placeholder="email@example.com" required />
+        </td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="4" class="rowtable">Terms and Conditions (<a href="">PDF version</a>)</td>
+      </tr>
+      <tr>
+        <td colspan="4" class="agreement">
+        	<div style="height: 120px; width: 800px; border: 1px solid #ccc; overflow: auto;">
+                <p>The use of BanksApp service requires the client's acceptance to the following terms and conditions:</p>
+                <p>1...</p>
+                <p>2...</p>
+                <p>N...</p>
+        	</div>
+        </td>
+        <td width="157">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="4">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+        	<input type="submit" name="cancel" value="Cancel" /></td>
+        <td colspan="2">
+        	<input type="submit" name="submit" value="Accept Terms and Conditions" /></td>
+        </td>
+      </tr>
+      <tr>
+      	<td>&nbsp;</td>
+      </tr>
+    </table>
+</form>
+</body>
+</html>
