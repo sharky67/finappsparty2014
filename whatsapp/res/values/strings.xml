@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BanksApp</string>
+    <string name="edit_text">Enter you message</string>
+
+</resources>

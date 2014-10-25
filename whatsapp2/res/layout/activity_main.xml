@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <!--<FrameLayout-->
+        <!--android:background="@color/header_color"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1">-->
+
+    <!--</FrameLayout>-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_weight="0.21"
+        android:background="@drawable/name_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        
+        <FrameLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="11">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:background="@color/send_box_color"
+                android:id="@+id/linearLayout">
+
+                <EditText
+                    android:id="@+id/enter_message"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:hint="@string/edit_text" />
+
+                <Button
+                    android:id="@+id/send_button"
+                    android:layout_width="45dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/send_btn"
+                    android:onClick="sendMessage"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

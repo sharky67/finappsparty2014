@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="victor1">\n\nHi Victor</string>
+    <string name="victor2">\n\nHi Antonio</string>
+    <string name="victor3">\n\nDid you finish all the work from last night Wearable FinApps Party?</string>
+    <string name="victor4">\n\nYes, it was very complicated but it looks sensational</string>
+    <string name="victor5">\n\nGreat! Please send an email to Jordi with all the final source code to publish it</string>
+    <string name="victor6">\n\nThank you, and great job!</string>
+    <string name="victor7">\n\nNo problem. By the way, remember to send the 50€ to me for last night dinner</string>
+    <string name="victor8">\n\nI just did it. Check if you got the confirmation</string>
+    <string name="victor9">\n\nYes! I got it in my new LG G Watch. Thanks!</string>
+    
+    <string name="caixabank">\n\nInformation from Caixabank\n\nAntonio just sent 50€ to you by Direct Money</string>
+    
+    <string name="victor">Victor Lara</string>
+    <string name="jordi">Jordi Boza</string>
+    <string name="gerard">Gerard de Manresa</string>
+    
+</resources>

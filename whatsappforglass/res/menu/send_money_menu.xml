@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/money_transfer"
+        android:title="@string/money_transfer"
+        android:icon="@drawable/ic_money_transfer"/>
+
+    <item
+        android:id="@+id/direct_money"
+        android:title="@string/direct_money"
+        android:icon="@drawable/ic_direct_money">
+    </item>
+    
+</menu>

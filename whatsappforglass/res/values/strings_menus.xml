@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="recent_chat">Recent chat</string>
+    <string name="contacts">Contacts</string>
+
+    <string name="chat">Chat</string>
+    <string name="send_money">Send money</string>
+    <string name="new_message">New message</string>
+    
+    <string name="money_transfer">Transfer money</string>
+    <string name="direct_money">Direct money</string>
+
+</resources>

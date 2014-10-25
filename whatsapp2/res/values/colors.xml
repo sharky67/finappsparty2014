@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#003399</color>
+    <color name="red">#990000</color>
+    <color name="green">#336600</color>
+    <color name="send_box_color">#ECEDE8</color>
+    
+</resources>
